@@ -36,9 +36,48 @@ At the bottom, use appropriate PCB Receptacles Female Box Header Connector for p
 </p>
 
 ## Software Installation
+Create a directory in your raspberry pi under the /home/pi. 
+Open a command window and executing the following commands:
+```ruby
+cd /home/pi/
+mkdir rbc_main
+cd rbc_main
+git clone https://github.com/VU2DLE/Radioberry_Console.git
+```
 ### Step1: Flashing the firmware
-Flashing the firmware in Pico is simple. Easy method is, if you hold down the BOOTSEL button when you plug in your Pico, it will appear as a drive onto which you can drag UF2 file.
-The binary file: rb_controller.uf2, is available in the folder \Radioberry_Console\Software\Firmware
+Flashing the firmware in Pico is simple. Easy method is, if you hold down the BOOTSEL button when you plug in your Pico, it will appear as a drive onto which you can drag UF2 file. The binary file: rb_controller.uf2, is available in the folder rbc_main \Radioberry_Console\Software\Firmware
 ### Step2: Building the Application
-step-by-step methods to host the application in linux
+Go to the folder “Application”
+```ruby
+cd /home/pi/rbc_main/Radioberry_Console/Software/Application/
+make clean
+make
+```
 ### Step3: Rebuild the piHPSDR
+There are few changes I have done in the rigctl.c of the piHPSDR, which is essential. since my pull request is not yet part of the /g0orx/pihpsdr, you can use the forked pihpsdr from my github.
+Simple method to rebuild the piHPSDR is by editing pihpsdr_install.sh from Johan. Follow the steps of Johan for installing Radioberry sofware.
+Before executing “sudo chmod +x pihpsdr_install.sh”, open the pihpsdr_install.sh in any editor you are familiar, then remove line “git clone https://github.com/g0orx/pihpsdr.git”. Add “git clone https://github.com/VU2DLE/pihpsdr.git”. Save and close the pihpsdr_install.sh and continue remaining steps.
+
+### Now software installation is completed.
+make sure that radioberry is running and also pihpsdr. In pihpsdr, goto Menu->RIGCTL. rbc_comm program communicate piHPSDR via this TCP Port number 19090. Select Rigctl Enable tick mark and Rigctl Port Number is 19090.
+
+Now Open a command window and execute the program
+```ruby
+cd /home/pi/rbc_main/Radioberry_Console/Software/Application/
+./rbc_comm
+```
+Now you see the following output in the command window
+```ruby
+/*******************************************/
+/**          W E L C O M E                **/
+/**               T O                     **/
+/**  piHPSDR Controller for Radioberry    **/
+/**               V1.0                    **/
+/**-------------------------------------- **/
+/**          DE VU2DLE Dileep             **/
+/*******************************************/
+```
+Enjoy and Happy Homebrewing….
+
+Many 73s
+DE VU2DLE Dileep
