@@ -3,3 +3,19 @@ piHPSDR Controller for RadioBerry
 <p align="center">
 <img src="https://github.com/VU2DLE/Radioberry_Console/blob/main/Photo/Heading.png" width="75%" />
 </p>
+Radioberry Controller is very simple standalone console for piHPSDR, which is designed only for RadioBerry SDR project. Simple way to control piHPSDR using hardware controls mounted in front panel. Both software and hardware initial version is ready to use, but still development is progressing, new features may get added and bugs being fixed.
+My sincere thanks to 
+Johan for the RadioBerry SDR project, 
+John Melton for piHPSDR
+Rama VU3RDD, Deepu VU3TLD, for design reviews / suggestions
+
+Version V1.0 Features
+-	VFO controlled by single optical encoder
+-	AF, AGC, RX GAIN and RIT controlled by 4 mechanical encoders
+-	Push Switch controls for
+o	Band +, Band –
+o	Mode +, Mode –
+o	Step +, Step – 
+o	Filter +, Filter –
+o	Noise functions: NB, NR ANF and SNB
+o	VFO functions: VFO A to B, VFO B to A, VFO swap and Lock
