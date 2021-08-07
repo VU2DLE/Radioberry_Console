@@ -26,6 +26,18 @@ In RPI, software dlecomm, receives the commands via USB and send appropriate CAT
 </p>
 
 ## Hardware
-Hardware is very simple. Solder the 4 mechanical encoder and 16 push buttons switch on the top of the PCB, also place the 10K resistors. 
+Hardware is very simple. Solder the 4 mechanical encoder and 16 push buttons switch on the top of the PCB, also place the 10K resistors.
+<p align="center">
+<img src="https://github.com/VU2DLE/Radioberry_Console/blob/main/Photo/PCB_Top.jpg" />
+</p>
+At the bottom, use appropriate PCB Receptacles Female Box Header Connector for placing the Raspberry Pi Pico. Luckily, I got cheap inexpensive connectors from local shop. Take 2 sets of, 18 way 1 row straight PCB female socket, through hole type. Carefully bend the leads 90degree and solder them.
+<p align="center">
+<img src="https://github.com/VU2DLE/Radioberry_Console/blob/main/Photo/PCB_Bottom.jpg" />
+</p>
 
-At the bottom, use appropriate PCB Receptacles Female Box Header Connector for placing the Raspberry Pi Pico. Luckily, I got cheap inexpensive connectors from local shop. Take 2 sets of, 18 way 1 row straight PCB female socket, through hole type. Carefully bend the leads 90degree.
+## Software Installation
+### Step1: Flashing the firmware
+Flashing the firmware in Pico is simple. Easy method is, if you hold down the BOOTSEL button when you plug in your Pico, it will appear as a drive onto which you can drag UF2 file.
+The binary file: rb_controller.uf2, is available in the folder \Radioberry_Console\Software\Firmware
+### Step2: Building the Application
+step-by-step methods to host the application in linux
