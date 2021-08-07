@@ -41,3 +41,4 @@ Flashing the firmware in Pico is simple. Easy method is, if you hold down the BO
 The binary file: rb_controller.uf2, is available in the folder \Radioberry_Console\Software\Firmware
 ### Step2: Building the Application
 step-by-step methods to host the application in linux
+### Step3: Rebuild the piHPSDR
