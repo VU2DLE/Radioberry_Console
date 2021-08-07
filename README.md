@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/VU2DLE/Radioberry_Console/blob/main/Photo/Heading.png" width="75%" />
+<img src="https://github.com/VU2DLE/Radioberry_Console/blob/main/Photo/Heading.png" />
 </p>
 
 Radioberry Controller is very simple standalone console for piHPSDR, which is designed only for RadioBerry SDR project. Simple way to control piHPSDR using hardware controls mounted in front panel. Both software and hardware initial version is ready to use, but still development is progressing, new features may get added and bugs being fixed. 
