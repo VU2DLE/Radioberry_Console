@@ -22,6 +22,15 @@ Filter+, Filter–
 Noise functions: NB, NR ANF and SNB
 VFO functions: VFO A to B, VFO B to A, VFO swap and Lock
 
+Here's a line for us to start with.
+
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+
+This line is also a separate paragraph, but...
+This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+
+
+
 ## How it works
 Radioberry Controller (RBC) PCB and Raspberry Pi Pico (Pico) works from the Raspberry Pi (RPI) USB power. Pico connects to the RPI using a USB cable. Pico reads the user events like switch press and movement of rotary encoder. These user inputs are processed and send to Raspberry Pi via USB interface.
 In RPI, software dlecomm, receives the commands via USB and send appropriate CAT commands to piHPSDR
