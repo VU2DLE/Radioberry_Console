@@ -1,11 +1,11 @@
 <p align="center">
 <img src="https://github.com/VU2DLE/Radioberry_Console/blob/main/Photo/Heading.png" width="75%" />
 </p>
-Radioberry Controller is very simple standalone console for piHPSDR, which is designed only for RadioBerry SDR project. Simple way to control piHPSDR using hardware controls mounted in front panel. Both software and hardware initial version is ready to use, but still development is progressing, new features may get added and bugs being fixed.
 
-My sincere thanks to 
-* Johan for the RadioBerry SDR project, John Melton for piHPSDR. 
-* Rama VU3RDD, Deepu VU3TLD, for design reviews / suggestions.
+Radioberry Controller is very simple standalone console for piHPSDR, which is designed only for RadioBerry SDR project. Simple way to control piHPSDR using hardware controls mounted in front panel. Both software and hardware initial version is ready to use, but still development is progressing, new features may get added and bugs being fixed. 
+
+My sincere thanks to Johan for the RadioBerry SDR project, John Melton for piHPSDR.
+Rama VU3RDD and Deepu VU3TLD for suggestions and design reviews from the beginning of this project.
 
 ## Version V1.0 Features
 * VFO controlled by single optical encoder
@@ -25,4 +25,7 @@ In RPI, software dlecomm, receives the commands via USB and send appropriate CAT
 <img src="https://github.com/VU2DLE/Radioberry_Console/blob/main/Photo/How_it_works.png" width="75%" />
 </p>
 
-## How to install
+## Hardware
+Hardware is very simple. Solder the 4 mechanical encoder and 16 push buttons switch on the top of the PCB, also place the 10K resistors. 
+
+At the bottom, use appropriate PCB Receptacles Female Box Header Connector for placing the Raspberry Pi Pico. Luckily, I got cheap inexpensive connectors from local shop. Take 2 sets of, 18 way 1 row straight PCB female socket, through hole type. Carefully bend the leads 90degree.
