@@ -20,7 +20,7 @@ Rama VU3RDD and Deepu VU3TLD for suggestions and design reviews from the beginni
 
 ## How it works
 Radioberry Controller (RBC) PCB and Raspberry Pi Pico (Pico) works from the Raspberry Pi (RPI) USB power. Pico connects to the RPI using a USB cable. Pico reads the user events like switch press and movement of rotary encoder. These user inputs are processed and send to Raspberry Pi via USB interface.
-In RPI, software dlecomm, receives the commands via USB and send appropriate CAT commands to piHPSDR
+In RPI, application software rbc_comm, which receives the user response commands (like clicking switches or rotation of vfo encoder) via USB and send appropriate CAT commands to piHPSDR
 <p align="center">
 <img src="https://github.com/VU2DLE/Radioberry_Console/blob/main/Photo/How_it_works.png" width="75%" />
 </p>
