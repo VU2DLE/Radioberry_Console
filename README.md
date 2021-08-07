@@ -35,6 +35,11 @@ At the bottom, use appropriate PCB Receptacles Female Box Header Connector for p
 <img src="https://github.com/VU2DLE/Radioberry_Console/blob/main/Photo/PCB_Bottom.jpg" />
 </p>
 
+### Completely assembled PCB with optical rotary encoder
+<p align="center">
+<img src="https://github.com/VU2DLE/Radioberry_Console/blob/main/Photo/PCB_V10.jpg" />
+</p>
+
 ## Software Installation
 Create a directory in your raspberry pi under the /home/pi. 
 Open a command window and executing the following commands:
