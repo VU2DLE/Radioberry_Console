@@ -15,18 +15,18 @@ Rama VU3RDD, Deepu VU3TLD, for design reviews / suggestions
 -	VFO controlled by single optical encoder
 -	AF, AGC, RX GAIN and RIT controlled by 4 mechanical encoders
 -	Push Switch controls for
+
 Band+, Band–
-Mode+, Mode–
-Step+, Step– 
+
+Mode+, Mode-
+
+Step+, Step–
+
 Filter+, Filter–
+
 Noise functions: NB, NR ANF and SNB
+
 VFO functions: VFO A to B, VFO B to A, VFO swap and Lock
-
-Here's a line for us to start with.
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
-
 
 
 ## How it works
