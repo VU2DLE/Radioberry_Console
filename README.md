@@ -50,7 +50,7 @@ cd rbc_main
 git clone https://github.com/VU2DLE/Radioberry_Console.git
 ```
 ### Step1: Flashing the firmware
-Flashing the firmware in Pico is simple. Easy method is, if you hold down the BOOTSEL button when you plug in your Pico, it will appear as a drive onto which you can drag UF2 file. The binary file: rb_controller.uf2, is available in the folder rbc_main \Radioberry_Console\Software\Firmware
+Flashing the firmware in Pico is simple. Easy method is, if you hold down the BOOTSEL button when you plug in your Pico, it will appear as a drive onto which you can drag UF2 file. The binary file: rb_controller.uf2, is available in the folder rbc_main \Radioberry_Console\Software\Firmware\bin.
 ### Step2: Building the Application
 Go to the folder “Application”
 ```ruby
