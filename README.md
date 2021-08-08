@@ -19,7 +19,7 @@ Rama VU3RDD and Deepu VU3TLD for suggestions and design reviews from the beginni
   * VFO functions: VFO A to B, VFO B to A, VFO swap and Lock
 
 ## How it works
-Radioberry Controller (RBC) PCB and Raspberry Pi Pico (Pico) works from the Raspberry Pi (RPI) USB power. Pico connects to the RPI using a USB cable. Pico reads the user events like switch press and movement of rotary encoder. These user inputs are processed and send to Raspberry Pi via USB interface.
+Radioberry Controller (RBC) PCB and Raspberry Pi Pico (Pico) works from the Raspberry Pi's (RPI) USB power. Pico is the part of RBC, and connects to the RPI using a USB cable. RBC takes 5V from the USB, so no need of external DC power. RBC reads the user events like switch press and movement of rotary encoder via GPIO's of the Pico. These user inputs are processed by Pico and send to Raspberry Pi via USB interface.
 In RPI, application software rbc_comm, which receives the user response commands (like clicking switches or rotation of vfo encoder) via USB and send appropriate CAT commands to piHPSDR. USB serial adapter may appear as /dev/ttyACM0 in RPI, after pluging in Pico via USB cable.
 <p align="center">
 <img src="https://github.com/VU2DLE/Radioberry_Console/blob/main/Photo/How_it_works.png" width="75%" />
