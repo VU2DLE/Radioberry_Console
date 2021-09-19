@@ -60,7 +60,7 @@ make
 ```
 ### Step3: Rebuild the piHPSDR
 There are few changes I have done in the rigctl.c of the piHPSDR, which is essential. since my pull request is not yet part of the /g0orx/pihpsdr, you can use the forked pihpsdr from my github.
-Simple method to rebuild the piHPSDR is by editing pihpsdr_install.sh from Johan. Follow the steps of Johan for installing Radioberry sofware.
+Simple method to rebuild the piHPSDR is by editing pihpsdr_install.sh from Johan. Follow the steps of Johan for installing piHPSDR sofware.
 Before executing “sudo chmod +x pihpsdr_install.sh”, open the pihpsdr_install.sh in any editor you are familiar, then remove line “git clone https://github.com/g0orx/pihpsdr.git”. Add “git clone https://github.com/VU2DLE/pihpsdr.git”. Save and close the pihpsdr_install.sh and continue remaining steps.
 
 ### Now software installation is completed.
