@@ -83,7 +83,7 @@ Now you see the following output in the command window
 /*******************************************/
 ```
 
-[![Radioberry_Console](https://img.youtube.com/vi/Wp12q2RIvMo&t/0.jpg)](https://www.youtube.com/watch?v=Wp12q2RIvMo&t)
+[![Radioberry_Console](https://img.youtube.com/vi/Wp12q2RIvMo/0.jpg)](https://www.youtube.com/watch?v=Wp12q2RIvMo)
 
 
 Enjoy and Happy Homebrewing….
